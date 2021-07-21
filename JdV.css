@@ -1,0 +1,59 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#mostrador{
+    margin: auto;
+    margin-top: 40px; 
+    width: 252px;
+    height: 80px;
+}
+
+#jogo{
+
+    float: right;
+    margin-right: 10em;
+    border: 6px ; 
+    border-color: blue;
+    padding: auto;
+    width: 400px;
+    height: 400px;
+    
+}
+
+#placar{
+    
+    width: 80px;
+    height: 40px;
+    background-color: darkcyan;
+    color: cadetblue;
+    margin-left: 20px;
+    
+   
+   
+}
+
+.tabuleiro{
+    width: 312px;
+    height: 312px;
+    margin: auto;
+    background-color: #ffffff;
+    border-radius: 10px;
+
+}
+
+.espaco{
+    width: 100px;
+    height: 90px;
+    border: 2px solid rgb(0, 0, 0);
+    float: left;
+    text-align: center;
+    padding-top: 10px;
+}
+
+body{
+    background-color: #ADD8E6;
+}
+
+

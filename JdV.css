@@ -8,52 +8,68 @@
     margin-top: 40px; 
     width: 252px;
     height: 80px;
+    font-size: 1.4em;
 }
 
 #jogo{
 
     float: right;
-    margin-right: 10em;
-    border: 6px ; 
-    border-color: blue;
-    padding: auto;
+    padding-right: 0mm;
     width: 400px;
-    height: 400px;
+    height: 600px;
+    margin-right: 2cm;
+    
+}
+
+#botao{
+    background: #87CEFA;
+    color: #000;
+    float: right;
+    font-size: 1.2em;
+    padding: 0.2em 0.6em;
+    margin-top: 2em;
+    margin-right: 43mm;
+    box-shadow: 2px 2px 2px #6495ED;
+    border-radius: 10px;
+    border: 0;
     
 }
 
 #placar{
     
-    width: 80px;
-    height: 40px;
+    max-width: 200px;
+    height: 80px;
     background-color: darkcyan;
-    color: cadetblue;
+    color: #000;
     margin-left: 20px;
-    
-   
-   
+    margin-top: 10px;
+    border-radius: 20%;
+    padding: 10px;
+    font-size: 2em;
+
 }
 
 .tabuleiro{
-    width: 312px;
-    height: 312px;
-    margin: auto;
+    width: 399px;
+    height: 400px;
     background-color: #ffffff;
-    border-radius: 10px;
+    /* border-radius: 10px; */
+   
 
 }
 
 .espaco{
-    width: 100px;
-    height: 90px;
+    width: 129px;
+    height:120px;
     border: 2px solid rgb(0, 0, 0);
-    float: left;
+    float: right;
     text-align: center;
     padding-top: 10px;
 }
 
 body{
     background-color: #ADD8E6;
+    
 }
 
 

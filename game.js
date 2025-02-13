@@ -17,10 +17,10 @@ function atualizaMostrador(){
    if(playTime == player1) {
 
        var player = document.querySelectorAll("div#mostrador img")[0];
-       player.setAttribute("src", "imagens/x.png");
+       player.setAttribute("src", "/JogoDaVelha/imagens/x.png");
    }else{
        var player = document.querySelectorAll("div#mostrador img")[0];
-       player.setAttribute("src", "imagens/O.png");
+       player.setAttribute("src", "/JogoDaVelha/imagens/O.png");
    }
 }
 
@@ -37,12 +37,12 @@ function inicializarEspacos(){
 
                 if (playTime == player1) {
 
-                    this.innerHTML = "<img src='imagens/X.png' border='0' height='100'>";
+                    this.innerHTML = "<img src='/JogoDaVelha/imagens/X.png' border='0' height='100'>";
                     this.setAttribute("jogada", player1);
                     playTime = player2;
 
                 }else{
-                    this.innerHTML = "<img src='imagens/O.png' border='0' height='100'>";
+                    this.innerHTML = "<img src='/JogoDaVelha/imagens/O.png' border='0' height='100'>";
                     this.setAttribute("jogada", player2);
                     playTime = player1;
 

@@ -17,7 +17,7 @@ function atualizaMostrador(){
    if(playTime == player1) {
 
        var player = document.querySelectorAll("div#mostrador img")[0];
-       player.setAttribute("src", "/JogoDaVelha/imagens/x.png");
+       player.setAttribute("src", "/JogoDaVelha/imagens/X.png");
    }else{
        var player = document.querySelectorAll("div#mostrador img")[0];
        player.setAttribute("src", "/JogoDaVelha/imagens/O.png");
